@@ -1,0 +1,18 @@
+@keyframes nav_link {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@mixin nav__link-animation {
+  animation-name: nav_link;
+  animation-duration: .4s;
+}
