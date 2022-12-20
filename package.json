@@ -1,0 +1,15 @@
+{
+  "name": "7-portfolio-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
